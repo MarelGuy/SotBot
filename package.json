@@ -1,0 +1,27 @@
+{
+  "name": "sotbot",
+  "version": "1.0.0",
+  "description": "look at the flash! look at the moves! faker! what was that!?",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon -r dotenv/config src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarelGuy/SotBot.git"
+  },
+  "author": "Marel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarelGuy/SotBot/issues"
+  },
+  "homepage": "https://github.com/MarelGuy/SotBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
